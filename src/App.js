@@ -12,6 +12,7 @@ import {
 import './App.css';
 import { useInView } from 'react-intersection-observer';
 import templateShirt from '../src/img/templateShirt.png'
+import banner from '../src/img/tbcbanner.jpeg'
 
 function App() {
 
@@ -27,51 +28,6 @@ function App() {
       setShowImage(true);
     }
   }, [inView]);
-
-  const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Pages
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Account
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Docs
-        </a>
-      </Typography>
-    </ul>
-  );
 
   return (
     <div className="w-screen h-screen overflow-x-hidden">
@@ -89,7 +45,7 @@ function App() {
         </div>
       </div>
       <div className="w-sreen h-[calc(100%-64px)] bg-red-200">
-        <img src="" className="h-full w-full" />
+        <img src={banner} className="h-full w-full object-cover" />
         <div className="h-auto w-full mt-10 px-[156px]">
           <div className="text-center text-3xl">Our Event</div>
           <Carousel
@@ -223,7 +179,7 @@ function App() {
           </div>
         </div>
         <div className="w-full h-auto mt-10 bg-blue-200">
-          <div className="pt-5 mx-[224px] min-h-[480px] border-b border-gray-300">
+          <div className="pt-5 mx-[224px] min-h-[360px] border-b border-gray-300">
             <div className="flex text-sm text-blue-900">
               <div className="w-1/4 px-5">
                 <div className="text-base mb-2">Home</div>
