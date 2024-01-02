@@ -8,14 +8,14 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAa7Lv81lIWmxMH2PbqMRXbCH05IaVmT0Q",
-  authDomain: "tuesdaybadmintonclub.firebaseapp.com",
-  databaseURL: "https://tuesdaybadmintonclub-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "tuesdaybadmintonclub",
-  storageBucket: "tuesdaybadmintonclub.appspot.com",
-  messagingSenderId: "593018387081",
-  appId: "1:593018387081:web:7f9a5b673fd45adfdda458",
-  measurementId: "G-LM6JR41WPH"
+  apiKey: "AIzaSyBFg8-M3MyXd8FnexAAcYQ39x-FdQwiuAY",
+  authDomain: "tuesdaybadmitoncommunity.firebaseapp.com",
+  databaseURL: "https://tuesdaybadmitoncommunity-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tuesdaybadmitoncommunity",
+  storageBucket: "tuesdaybadmitoncommunity.appspot.com",
+  messagingSenderId: "1091363769556",
+  appId: "1:1091363769556:web:35a04d1bc25fdb7a237f41",
+  measurementId: "G-8N3HS6PFDH"
 };
 
 // Initialize Firebase
