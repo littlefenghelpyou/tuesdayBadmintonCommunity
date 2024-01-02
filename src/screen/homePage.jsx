@@ -111,10 +111,10 @@ function App() {
             className="hover:text-blue-500">
             <div>About</div>
           </button>
-          <button type="/" className="hover:text-blue-500">
+          <button type="/" className="hover:text-blue-500 text-gray-500/50">
             <div>Help Centre</div>
           </button>
-          <button type="/" className="hover:text-blue-500" disabled>
+          <button type="/" className="hover:text-blue-500 text-gray-500/50">
             <div>Collaborate</div>
           </button>
         </div>

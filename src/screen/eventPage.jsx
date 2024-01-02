@@ -99,11 +99,18 @@ const EventPage = () => {
           <button type="button" onClick={() => navigate("/")}>
             <div className="text-3xl text-blue-500 font-mono">TBC</div>
           </button>
-
-          <div>About</div>
-          <div>Help Centre</div>
-          <div>Collaborate</div>
-          <div>Store</div>
+          <button
+            type="button"
+            onClick={() => navigate("/aboutUs")}
+            className="hover:text-blue-500">
+            <div>About</div>
+          </button>
+          <button type="/" className="hover:text-blue-500 text-gray-500/50">
+            <div>Help Centre</div>
+          </button>
+          <button type="/" className="hover:text-blue-500 text-gray-500/50">
+            <div>Collaborate</div>
+          </button>
         </div>
         <div className="flex justify-center items-center">
           {userDetails ? (
