@@ -18,7 +18,7 @@ import Andrew from "../img/andrew.png";
 import Hanjiang from "../img/hanjiang.png";
 import Geoffrey from "../img/geoffrey.png";
 import Franky from "../img/franky.png";
-import TBC from "../img/logoTBC.jpeg";
+// import TBC from "../img/logoTBC.jpeg";
 
 const AboutPage = () => {
   const [ref, inView] = useInView({
@@ -321,17 +321,17 @@ const AboutPage = () => {
                 <div className="text-center">Valerie</div>
               </div>
               <div>
-                <img
+                {/* <img
                   className="w-[150px] h-[150px] rounded-full bg-gray-500"
                   src={TBC}
-                />
+                /> */}
                 <div className="text-center">MELANIE</div>
               </div>
               <div>
-                <img
+                {/* <img
                   className="w-[150px] h-[150px] rounded-full bg-gray-500"
                   src={TBC}
-                />
+                /> */}
                 <div className="text-center">Joanda Merielle Kristy</div>
               </div>
               <div>

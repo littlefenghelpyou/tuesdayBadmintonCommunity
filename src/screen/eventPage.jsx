@@ -1,5 +1,4 @@
 import React from "react";
-import LiveClock from "react-live-clock";
 import {
   Button,
   Dialog,
@@ -145,12 +144,7 @@ const EventPage = () => {
               position: "relative",
             }}>
             <div className="text-sm mt-2">Real-Time Malaysia Clock</div>
-            <LiveClock
-              format={"HH:mm:ss"}
-              ticking={true}
-              timezone={"Asia/Kuala_Lumpur"}
-              className="text-[60px] leading-[60px]"
-            />
+
             <div className="mt-2 text-xl">Tuesday Badminton</div>
             <div className="mt-1 text-sm">
               Forum Optimum, Subang Jaya | 02/01/2024 8:00 p.m. - 10:00 p.m.

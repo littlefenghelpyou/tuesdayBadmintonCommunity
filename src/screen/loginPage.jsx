@@ -22,6 +22,8 @@ const LoginPage = () => {
 
   const usersCollectionRef = collection(db, "users");
 
+  console.log("usersCollectionRef -->", usersCollectionRef);
+
   const navigate = useNavigate();
 
   const getSpecUsers = async () => {
