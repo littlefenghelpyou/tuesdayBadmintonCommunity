@@ -16,7 +16,7 @@ import banner from "../img/tbcbanner.jpeg";
 import TBCLogo from "../img/TBC_logo.png";
 import TBCLogoBlack from "../img/TBC_logo_black.png";
 import catLook from "../img/cat_look.jpeg";
-import { db } from "../firebase-config";
+import { db } from "../firebase/firebase-config";
 import {
   collection,
   getDocs,

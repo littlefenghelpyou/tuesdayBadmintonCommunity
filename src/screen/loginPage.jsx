@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Input } from "@material-tailwind/react";
-import { db } from "../firebase-config";
+import { db } from "../firebase/firebase-config";
 import {
   collection,
   getDocs,
@@ -31,6 +31,7 @@ const LoginPage = () => {
       const q = query(usersCollectionRef, where("name", "==", username));
 
       const data = await getDocs(q);
+      console.log("data====>", data)
       const userDetail = data.docs.map((doc) => ({
         ...doc.data(),
         id: doc.id,
