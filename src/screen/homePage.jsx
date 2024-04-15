@@ -29,12 +29,16 @@ import { useNavigate } from "react-router-dom";
 import racket from "../img/racket.png";
 import shuttle from "../img/shuttle.png";
 import shirt from "../img/shirt.png";
-import Val from "../img/Valerie.png";
-import Pi from "../img/pishon.png";
-import An from "../img/andrew.png";
+import Val from "../img/val.png";
+import Pi from "../img/pi.png";
+import An from "../img/an.png";
+import Jo from "../img/jo.png";
+import Han from "../img/han.png";
 import hand from "../img/hand.png";
+import TBCService from "../img/TBC.png";
+import googlemap from "../img/googlemap.png";
 
-function App() {
+const Homepage = () => {
   const [ref, inView] = useInView({
     triggerOnce: true, // Only trigger once when the element comes into view
   });
@@ -88,121 +92,133 @@ function App() {
 
   window.addEventListener("scroll", function () {
     var element = document.getElementById("animated-text");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
     }
   });
 
   window.addEventListener("scroll", function () {
     var element = document.getElementById("animated-text-two");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
     }
   });
 
   window.addEventListener("scroll", function () {
     var element = document.getElementById("animated-text-three");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
     }
   });
 
-  // window.addEventListener("scroll", function () {
-  //   var element = document.getElementById("animated-text-four");
-  //   var position = element.getBoundingClientRect().top;
-  //   var windowHeight = window.innerHeight;
+  window.addEventListener("scroll", function () {
+    var element = document.getElementById("animated-text-four-1");
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-  //   if (position < windowHeight) {
-  //     element.classList.add("animate-to-show");
-  //   }
-  // });
+      if (position < windowHeight) {
+        element.classList.add("animate-to-show");
+      }
+    }
+  });
 
-  // window.addEventListener("scroll", function () {
-  //   var element = document.getElementById("animated-text-five");
-  //   var position = element.getBoundingClientRect().top;
-  //   var windowHeight = window.innerHeight;
+  window.addEventListener("scroll", function () {
+    var element = document.getElementById("animated-text-four");
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-  //   if (position < windowHeight) {
-  //     element.classList.add("animate-to-show");
-  //   }
-  // });
+      if (position < windowHeight) {
+        element.classList.add("animate-to-show");
+      }
+    }
+  });
 
-  // window.addEventListener("scroll", function () {
-  //   var element = document.getElementById("animated-text-six");
-  //   var position = element.getBoundingClientRect().top;
-  //   var windowHeight = window.innerHeight;
+  window.addEventListener("scroll", function () {
+    var element = document.getElementById("animated-text-five");
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-  //   if (position < windowHeight) {
-  //     element.classList.add("animate-to-show");
-  //   }
-  // });
+      if (position < windowHeight) {
+        element.classList.add("animate-to-show");
+      }
+    }
+  });
+
+  window.addEventListener("scroll", function () {
+    var element = document.getElementById("animated-text-six");
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+
+      if (position < windowHeight) {
+        element.classList.add("animate-to-show");
+      }
+    }
+  });
 
   window.addEventListener("scroll", function () {
     var element = document.getElementById("animated-text-seven");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
-    }
-  });
-
-  window.addEventListener("scroll", function () {
-    var element = document.getElementById("animated-text-eight");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
-
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
-    }
-  });
-
-  window.addEventListener("scroll", function () {
-    var element = document.getElementById("animated-text-nine");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
-
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
-    }
-  });
-
-  window.addEventListener("scroll", function () {
-    var element = document.getElementById("animated-text-ten");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
-
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
-    }
-  });
-
-  window.addEventListener("scroll", function () {
-    var element = document.getElementById("animated-text-elevan");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
-
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
     }
   });
 
   window.addEventListener("scroll", function () {
     var element = document.getElementById("animated-text-twelve");
-    var position = element.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
 
-    if (position < windowHeight) {
-      element.classList.add("animate-to-top");
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
+    }
+  });
+
+  window.addEventListener("scroll", function () {
+    var element = document.getElementById("animated-text-thirdteen");
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
+    }
+  });
+
+  window.addEventListener("scroll", function () {
+    var element = document.getElementById("animated-text-fourteen");
+    if (element) {
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+
+      if (position < windowHeight) {
+        element.classList.add("animate-to-top");
+      }
     }
   });
 
@@ -210,41 +226,98 @@ function App() {
 
   return (
     <div className="w-full h-auto">
+      {userDetails && (
+        <Dialog open={open} handler={() => setOpen(false)}>
+          <DialogHeader>Logout</DialogHeader>
+          <DialogBody>
+            Hi {userDetails.name}, are you sure want to logout?
+          </DialogBody>
+          <DialogFooter>
+            <Button
+              variant="text"
+              color="red"
+              onClick={() => setOpen(false)}
+              className="mr-1">
+              <span>Cancel</span>
+            </Button>
+            <Button variant="gradient" color="#0B274D" onClick={() => logout()}>
+              <span>Confirm</span>
+            </Button>
+          </DialogFooter>
+        </Dialog>
+      )}
       <div className="header-bg w-full">
         {/* NavBar */}
         <div className="py-[1rem] px-[8.33%] flex justify-between items-center text-white">
-          <div className="flex items-center">
+          <button
+            type="button"
+            onClick={() => navigate("/")}
+            className="flex items-center text-left">
             <img src={TBCLogo} className="h-10 w-12" />
             <div className="ml-2">
               <h3 className="mt-1">Tuesday Badminton</h3>
               <h3 className="leading-3">Community</h3>
             </div>
-          </div>
+          </button>
           <div className="flex gap-6 items-center">
-            <p>About Us</p>
-            <p>Help Centre</p>
-            <p>Collaborate</p>
-            <button type="button" className="bg-white px-4 py-1 rounded-full">
-              <p className="text-[#62C7CC]">Login</p>
+            {/* <button
+              type="button"
+              onClick={() => navigate("aboutUs")}
+              className="hover:text-[#0B274D]">
+              <p>About Us</p>
+            </button> */}
+            <button
+              type="button"
+              onClick={() => navigate("help")}
+              className="hover:text-[#0B274D]">
+              <p>Help Centre</p>
             </button>
+            <button
+              type="button"
+              onClick={() => navigate("collaborate")}
+              className="hover:text-[#0B274D]">
+              <p>Collaborate</p>
+            </button>
+
+            {userDetails ? (
+              <>
+                <p className="">Welcome back, {userDetails.name}</p>
+                <button
+                  type="button"
+                  onClick={() => setOpen(true)}
+                  className="bg-white px-4 py-1 rounded-full text-[#62C7CC] hover:text-white hover:bg-transparent">
+                  <p>Logout</p>
+                </button>
+              </>
+            ) : (
+              <button
+                type="button"
+                onClick={() => navigate("login")}
+                className="bg-white px-4 py-1 rounded-full text-[#62C7CC] hover:text-white hover:bg-transparent">
+                <p>Login</p>
+              </button>
+            )}
           </div>
         </div>
 
         {/* Banner */}
         <div className="pt-[3.75rem] pb-[3.75rem] px-[8.33%] min-h-screen flex items-center justify-between">
           <div className="w-[60%]">
-            <div class="container">
-              <h3 class="text-white flow-from-bottom delay-1s text-xl">
+            <div className="container">
+              <h3 className="text-white flow-from-bottom delay-1s text-xl">
                 Welcome to Tuesday Badminton Community
               </h3>
             </div>
 
-            <div class="container h-[6rem]">
-              <h2 class="text-[#F9CA55] flow-from-bottom delay-2s">
+            <div className="container h-[6rem]">
+              <h2 className="text-[#F9CA55] flow-from-bottom delay-2s">
                 WHERE OUR BOND EXTENDS BEYOND THE COURTS
               </h2>
             </div>
-            <button type="button" className="btn">
+            <button
+              type="button"
+              className="btn"
+              onClick={() => navigate("join")}>
               <p>Join Our Session</p>
             </button>
           </div>
@@ -253,15 +326,15 @@ function App() {
           </div>
         </div>
 
-        <div class="section-two w-full h-full px-[8.33%] pb-[3.75rem]">
+        <div className="section-two w-full h-full px-[8.33%] pb-[3.75rem]">
           <div className="flex px-4">
             <div className="w-1/2 mt-5">
-              <div class="container h-[3.0rem]">
+              <div className="container h-[3.0rem]">
                 <h2 className="text-[#F9CA55] mb-5" id="animated-text-two">
                   About Us
                 </h2>
               </div>
-              <div class="container h-[4.8rem] mt-[2rem] pr-[2rem]">
+              <div className="container h-[4.8rem] mt-[2rem] pr-[2rem]">
                 <p className="text-justify text-[#F9CA55]" id="animated-text">
                   Welcome to Tuesday Badminton Community (TBC), where passion
                   meets the shuttlecock on the courts of camaraderie.
@@ -284,132 +357,68 @@ function App() {
       </div>
 
       {/* TBC Services */}
-      <div className="w-full h-full px-[8.33%] text-white">
-        <div className="flex gap-5">
-          <div>
+      <div className="w-full h-full px-[8.33%] text-black py-[5rem]">
+        <div className="flex gap-5 justify-center items-center">
+          <img src={TBCService} className="w-1/3" id="animated-text-four-1" />
+
+          <div
+            className="bg-[#62C7CC] rounded-full p-[2.5rem] flex flex-col justify-center items-center min-w-[17.5rem] min-h-[17.5rem] max-w-[17.5rem] max-h-[17.5rem] coin"
+            id="animated-text-four">
             <img
               src={racket}
-              className="w-[7.5rem] h-[7.5rem] object-contain"
+              className="w-[7.5rem] h-[7.5rem] object-contain "
             />
-            <h4 className="my-5">Grip Change</h4>
-            <p>
+            <h4 className="p-5 text-white text-center">Grip Change</h4>
+            <p
+              className="text-justify bg-[#62C7CC] text-white"
+              style={{ hyphens: "auto" }}>
               Enhance your game with our badminton grip Services - Purchase new
               grips and have them replaced for an optimal playing experience
             </p>
           </div>
-        </div>
-        {/* <div className=" py-[1.75rem] h-full flex items-center">
-          <h2 className="text-center mt-[1.75rem]">TBC Services</h2>
-          <div className="flex px-[8.33%] justify-center text-center gap-4">
-            <div
-              className="coin w-[20rem] h-[20rem] flex flex-col items-center justify-center rounded-full border-2 border-white p-5 bg-[#62C7CC]"
-              id="animated-text-four">
-              <img
-                src={racket}
-                className="w-[7.5rem] h-[7.5rem] object-contain"
-              />
-              <h4 className="my-5">Grip Change</h4>
-              <p>
-                Enhance your game with our badminton grip Services - Purchase
-                new grips and have them replaced for an optimal playing
-                experience
-              </p>
-            </div>
-            <div
-              className="coin w-[20rem] h-[20rem] flex flex-col items-center justify-center rounded-full border-2 border-white p-5 bg-[#62C7CC]"
-              id="animated-text-five">
-              <img
-                src={shuttle}
-                className="w-[7.5rem] h-[7.5rem] object-contain"
-              />
-              <h4 className="my-5">RSL Shuttlecock</h4>
-              <p>
-                Get the best deals on RSL Classic or RSL G2 - Your go-to source
-                for unbeatable prices compared to other retailers!
-              </p>
-            </div>
-            <div
-              className="coin w-[20rem] h-[20rem] flex flex-col items-center justify-center rounded-full border-2 border-white p-5 bg-[#62C7CC]"
-              id="animated-text-six">
-              <img
-                src={shirt}
-                className="w-[7.5rem] h-[7.5rem] object-contain"
-              />
-              <h4 className="my-5">TBC shirt</h4>
-              <p>
-                Elevate your Tuesday Badminton Community spirit - Purchase a TBC
-                shirt with customizable names for a personalized touch
-              </p>
-            </div>
+
+          <div
+            className="bg-[#62C7CC] rounded-full p-[2.5rem] flex flex-col justify-center items-center min-w-[17.5rem] min-h-[17.5rem] max-w-[17.5rem] max-h-[17.5rem] coin"
+            id="animated-text-five">
+            <img
+              src={shuttle}
+              className="w-[7.5rem] h-[7.5rem] object-contain "
+            />
+            <h4 className="p-5 text-white text-center">RSL Shuttlecock</h4>
+            <p
+              className="text-justify bg-[#62C7CC] text-white"
+              style={{ hyphens: "auto" }}>
+              Get the best deals on RSL Classic or RSL G2 - Your go-to source
+              for unbeatable prices compared to other retailers!
+            </p>
           </div>
-        </div> */}
+
+          <div
+            className="bg-[#62C7CC] rounded-full p-[2.5rem] flex flex-col justify-center items-center min-w-[17.5rem] min-h-[17.5rem] max-w-[17.5rem] max-h-[17.5rem] coin"
+            id="animated-text-six">
+            <img
+              src={shirt}
+              className="w-[7.5rem] h-[7.5rem] object-contain "
+            />
+            <h4 className="p-5 text-white text-center">TBC shirt</h4>
+            <p
+              className="text-justify bg-[#62C7CC] text-white"
+              style={{ hyphens: "auto" }}>
+              Elevate your Tuesday Badminton Community spirit - Purchase a TBC
+              shirt with customizable names for a personalized touch
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* MEET OUR COMMITEE */}
-      <div className="w-full h-full px-[8.33%] pt-[8rem] pb-[15rem] section-three">
+      <div className="w-full h-full px-[8.33%] pt-[3rem] pb-[20rem] section-three">
         <h2 className="text-center mb-[3.75rem]">MEET OUR COMMITEE</h2>
-        <div className="flex justify-center items-end gap-5 h-[15rem]">
-          <button
-            type="button"
-            onClick={() => setCard(1)}
-            className={`transition-all duration-300 ease-in-out ${
-              card === 1 ? "w-[25%]" : "w-[18.75%]"
-            }`}>
-            <div className="relative flex items-center justify-center">
-              <img
-                className={`transition-all duration-300 ease-in-out w-full ${
-                  card === 1 ? "h-[15rem]" : "h-[12rem]"
-                } rounded-md shadow-sm shadow-black/80 object-cover`}
-                id="animated-text-seven"
-              />
-            </div>
-            <h4 className="text-left pt-4">Lee Han Jiang</h4>
-          </button>
-          <button
-            type="button"
-            onClick={() => setCard(2)}
-            className={`transition-all duration-300 ease-in-out ${
-              card === 2 ? "w-[25%]" : "w-[18.75%]"
-            }`}>
-            <div className="relative flex items-center justify-center">
-              <img
-                className={`transition-all duration-300 ease-in-out w-full ${
-                  card === 2 ? "h-[15rem]" : "h-[12rem]"
-                } rounded-md shadow-sm shadow-black/80 object-cover`}
-                id="animated-text-eight"
-              />
-            </div>
-            <h4 className="text-left pt-4">Jonda Kristy</h4>
-          </button>
-          <button
-            type="button"
-            onClick={() => setCard(3)}
-            className={`transition-all duration-300 ease-in-out ${
-              card === 3 ? "w-[25%]" : "w-[18.75%]"
-            }`}>
-            <div className="relative flex items-center justify-center">
-              <img
-                src={Val}
-                className={`transition-all duration-300 ease-in-out w-full ${
-                  card === 3 ? "h-[15rem]" : "h-[12rem]"
-                } rounded-md shadow-sm shadow-black/80 object-cover`}
-                id="animated-text-nine"
-              />
-              {card === 3 && (
-                <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-[15rem]`}>
-                  As the leader of our dynamic badminton community, I spearhead
-                  court bookings, manage payments, procure quality shuttlecocks,
-                  and organize TBC sessions to ensure an enjoyable experience
-                  for all members.
-                </p>
-              )}
-            </div>
-            <h4 className="text-left pt-4">Valerie Yeoh</h4>
-          </button>
-          <button
-            type="button"
-            onClick={() => setCard(4)}
+        <div
+          className="flex justify-center items-end gap-5 h-[18rem]"
+          id="animated-text-seven">
+          <div
+            onMouseOver={() => setCard(4)}
             className={`transition-all duration-300 ease-in-out ${
               card === 4 ? "w-[25%]" : "w-[18.75%]"
             }`}>
@@ -419,22 +428,98 @@ function App() {
                 className={`transition-all duration-300 ease-in-out w-full ${
                   card === 4 ? "h-[15rem]" : "h-[12rem]"
                 } rounded-md shadow-sm shadow-black/80 object-cover`}
-                id="animated-text-ten"
               />
               {card === 4 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-[15rem]`}>
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  style={{ hyphens: "auto" }}>
                   As the dedicated Inventory Manager, my role involves
                   maintaining a seamless badminton experience by refilling
-                  shuttles on court, meticulosly vetting shuttle conditions
+                  shuttles on court, meticulosly vetting shuttle conditions, and
+                  coordinating bulk orders to keep our games flying smoothly.
                 </p>
               )}
             </div>
             <h4 className="text-left pt-4">Loh Pishon</h4>
-          </button>
-          <button
-            type="button"
-            onClick={() => setCard(5)}
+          </div>
+          <div
+            onMouseOver={() => setCard(2)}
+            className={`transition-all duration-300 ease-in-out ${
+              card === 2 ? "w-[25%]" : "w-[18.75%]"
+            }`}>
+            <div className="relative flex items-center justify-center">
+              <img
+                src={Jo}
+                className={`transition-all duration-300 ease-in-out w-full ${
+                  card === 2 ? "h-[15rem]" : "h-[12rem]"
+                } rounded-md shadow-sm shadow-black/80 object-cover`}
+              />
+              {card === 2 && (
+                <p
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  style={{ hyphens: "auto" }}>
+                  As the Miscellaneous Support for our thriving badminton
+                  community, I wear many hats - I'm here to lend a helping hand
+                  wherever needed, ensuring the smooth functioning and enjoyment
+                  of our collective badminton experience.
+                </p>
+              )}
+            </div>
+            <h4 className="text-left pt-4">Jonda Kristy</h4>
+          </div>
+          <div
+            onMouseOver={() => setCard(3)}
+            className={`transition-all duration-300 ease-in-out ${
+              card === 3 ? "w-[25%]" : "w-[18.75%]"
+            }`}>
+            <div className="relative flex items-center justify-center">
+              <img
+                src={Val}
+                className={`transition-all duration-300 ease-in-out w-full ${
+                  card === 3 ? "h-[15rem]" : "h-[12rem]"
+                } rounded-md shadow-sm shadow-black/80 object-cover`}
+              />
+              {card === 3 && (
+                <p
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  style={{ hyphens: "auto" }}>
+                  As the leader of our dynamic badminton community, Ispearhead
+                  court bookings, manage payments, procure quality shuttlecocks,
+                  and organize TBC session and enjoyable experience for all
+                  members.
+                </p>
+              )}
+            </div>
+            <h4 className="text-left pt-4">Valerie Yeoh</h4>
+          </div>
+          <div
+            onMouseOver={() => setCard(1)}
+            className={`transition-all duration-300 ease-in-out ${
+              card === 1 ? "w-[25%]" : "w-[18.75%]"
+            }`}>
+            <div className="relative flex items-center justify-center">
+              <img
+                src={Han}
+                className={`transition-all duration-300 ease-in-out w-full ${
+                  card === 1 ? "h-[15rem]" : "h-[12rem]"
+                } rounded-md shadow-sm shadow-black/80 object-cover`}
+              />
+              {card === 1 && (
+                <p
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  style={{ hyphens: "auto" }}>
+                  As the Treasurer of our vibrant badminton community, I
+                  diligently handle the financial aspect, collecting payments,
+                  and ensuring accurate transactions, guaranteeing smooth and
+                  transparent financial operations for all members.
+                </p>
+              )}
+            </div>
+            <h4 className="text-left pt-4">Lee Han Jiang</h4>
+          </div>
+
+          <div
+            onMouseOver={() => setCard(5)}
             className={`transition-all duration-300 ease-in-out ${
               card === 5 ? "w-[25%]" : "w-[18.75%]"
             }`}>
@@ -444,20 +529,21 @@ function App() {
                 className={`transition-all duration-300 ease-in-out w-full ${
                   card === 5 ? "h-[15rem]" : "h-[12rem]"
                 } rounded-md shadow-sm shadow-black/80 object-cover`}
-                id="animated-text-elevan"
               />
               {card === 5 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-[15rem]`}>
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  style={{ hyphens: "auto" }}>
                   As the IT Support for our expansive badminton community, I
                   drive the development of a user-friendly website, ensuring
                   seamless logins for all members. Additionally, I help monitor
-                  the backend
+                  the backend, tackling IT-related challenges to enhance our
+                  digital experience.
                 </p>
               )}
             </div>
             <h4 className="text-left pt-4">Andrew Ding</h4>
-          </button>
+          </div>
         </div>
       </div>
 
@@ -465,7 +551,7 @@ function App() {
       <div className="w-full h-full px-[12.33%] top-[-8rem] relative">
         <div className="flex justify-center">
           <div
-            className="w-3/4 shadow shadow-black/25 pt-[5rem] py-[2.5rem] px-[4rem] bg-white"
+            className="w-1/2 shadow shadow-black/25 pt-[5rem] py-[2.5rem] px-[4rem] bg-white"
             id="animated-text-twelve">
             <div className="flex flex-col">
               <div className="flex justify-center gap-5">
@@ -521,8 +607,39 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="px-[8.33%] pb-[5rem] flex items-center justify-center">
+        <div className="px-8" id="animated-text-thirdteen">
+          <h4 className="bg-[#62C7CC] w-fit px-[1.5rem] py-[0.625rem] rounded text-white shadow shadow-black/50">
+            TBC Info Session
+          </h4>
+          <h4 className="mt-8">FORUM OPTIMUM USJ COURT CENTRE</h4>
+          <p>
+            Lot 791, Persiaran Subang Indah, Taman Perindustrian Subang, 47610
+            Subang Jaya
+          </p>
+          <h4 className="mt-5">EVERY TUESDAY 8-10PM</h4>
+          <p>Court B05-B15</p>
+        </div>
+        <a
+          href="https://maps.app.goo.gl/Nmo8HgQWGDdx7EiNA"
+          className="w-1/2"
+          id="animated-text-fourteen">
+          <img
+            src={googlemap}
+            className="w-full rounded shadow shadow-black/50"
+          />
+        </a>
+      </div>
+
+      {/* footer */}
+      <div className="w-full h-auto bg-[#0B274D] py-2 px-[8.33%] text-white">
+        <p className="text-xs">
+          © 2024 Tuesday Badminton Community Inc. All rights reserved.
+        </p>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Homepage;
