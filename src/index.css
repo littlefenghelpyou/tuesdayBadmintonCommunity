@@ -173,6 +173,14 @@ p {
   background-image: radial-gradient(circle, #0b274d, #0b274d, #0b274d, #0b274d, #0b274d, #0b335a, #0b3f67, #0b4c73, #13698d, #2688a4, #41a7b9, #62c7cc);
 }
 
+.trapezoid {
+  clip-path: polygon(44% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.trapezoid-two {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
 
 .admin-homepage-main{
   display: flex;
