@@ -246,14 +246,14 @@ const Homepage = () => {
           </DialogFooter>
         </Dialog>
       )}
-      <div className="header-bg w-full">
+      <div className="bg-[#0B274D] w-full">
         {/* NavBar */}
         <div className="py-[1rem] px-[8.33%] flex justify-between items-center text-white">
           <button
             type="button"
             onClick={() => navigate("/")}
             className="flex items-center text-left">
-            <img src={TBCLogo} className="h-10 w-12" />
+            <img src={TBCLogo} className="h-12 w-14" />
             <div className="ml-2">
               <h3 className="mt-1">Tuesday Badminton</h3>
               <h3 className="leading-3">Community</h3>
@@ -269,13 +269,13 @@ const Homepage = () => {
             <button
               type="button"
               onClick={() => navigate("help")}
-              className="hover:text-[#0B274D]">
+              className="hover:scale-110">
               <p>Help Centre</p>
             </button>
             <button
               type="button"
               onClick={() => navigate("collaborate")}
-              className="hover:text-[#0B274D]">
+              className="hover:scale-110">
               <p>Collaborate</p>
             </button>
 
@@ -285,7 +285,7 @@ const Homepage = () => {
                 <button
                   type="button"
                   onClick={() => setOpen(true)}
-                  className="bg-white px-4 py-1 rounded-full text-[#62C7CC] hover:text-white hover:bg-transparent">
+                  className="bg-white px-4 py-1 rounded-full text-[#0B274D] hover:text-white hover:bg-transparent">
                   <p>Logout</p>
                 </button>
               </>
@@ -293,7 +293,7 @@ const Homepage = () => {
               <button
                 type="button"
                 onClick={() => navigate("login")}
-                className="bg-white px-4 py-1 rounded-full text-[#62C7CC] hover:text-white hover:bg-transparent">
+                className="bg-white px-4 py-1 rounded-full text-[#0B274D] hover:text-white hover:bg-transparent">
                 <p>Login</p>
               </button>
             )}
@@ -551,7 +551,7 @@ const Homepage = () => {
       <div className="w-full h-full px-[12.33%] top-[-8rem] relative">
         <div className="flex justify-center">
           <div
-            className="w-1/2 shadow shadow-black/25 pt-[5rem] py-[2.5rem] px-[4rem] bg-white"
+            className="w-1/2 shadow shadow-black/25 pt-[5rem] py-[2.5rem] px-[4rem] bg-[#F9CA55]"
             id="animated-text-twelve">
             <div className="flex flex-col">
               <div className="flex justify-center gap-5">
@@ -577,7 +577,6 @@ const Homepage = () => {
                 label="Name"
                 variant="static"
                 placeholder="Your Username"
-                className="bg-white"
                 containerProps={{ className: "mt-6" }}
               />
               <Input
@@ -586,7 +585,6 @@ const Homepage = () => {
                 label="Phone No."
                 variant="static"
                 placeholder="Your Phone No."
-                className="bg-white"
                 containerProps={{ className: "mt-6" }}
               />
               <Input
@@ -595,7 +593,6 @@ const Homepage = () => {
                 label="Email"
                 variant="static"
                 placeholder="Your Email"
-                className="bg-white"
                 containerProps={{ className: "mt-6" }}
               />
             </div>
