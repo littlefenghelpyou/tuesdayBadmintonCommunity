@@ -368,9 +368,9 @@ const Homepage = () => {
               src={racket}
               className="w-[7.5rem] h-[7.5rem] object-contain "
             />
-            <h4 className="p-5 text-white text-center">Grip Change</h4>
+            <h4 className="text-white text-center">Grip Change</h4>
             <p
-              className="text-justify bg-[#62C7CC] text-white"
+              className="text-center bg-[#62C7CC] text-white"
               style={{ hyphens: "auto" }}>
               Enhance your game with our badminton grip Services - Purchase new
               grips and have them replaced for an optimal playing experience
@@ -384,9 +384,9 @@ const Homepage = () => {
               src={shuttle}
               className="w-[7.5rem] h-[7.5rem] object-contain "
             />
-            <h4 className="p-5 text-white text-center">RSL Shuttlecock</h4>
+            <h4 className="text-white text-center">RSL Shuttlecock</h4>
             <p
-              className="text-justify bg-[#62C7CC] text-white"
+              className="text-center bg-[#62C7CC] text-white"
               style={{ hyphens: "auto" }}>
               Get the best deals on RSL Classic or RSL G2 - Your go-to source
               for unbeatable prices compared to other retailers!
@@ -400,9 +400,9 @@ const Homepage = () => {
               src={shirt}
               className="w-[7.5rem] h-[7.5rem] object-contain "
             />
-            <h4 className="p-5 text-white text-center">TBC shirt</h4>
+            <h4 className="text-white text-center">TBC shirt</h4>
             <p
-              className="text-justify bg-[#62C7CC] text-white"
+              className="text-center bg-[#62C7CC] text-white"
               style={{ hyphens: "auto" }}>
               Elevate your Tuesday Badminton Community spirit - Purchase a TBC
               shirt with customizable names for a personalized touch
@@ -431,7 +431,7 @@ const Homepage = () => {
               />
               {card === 4 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-center`}
                   style={{ hyphens: "auto" }}>
                   As the dedicated Inventory Manager, my role involves
                   maintaining a seamless badminton experience by refilling
@@ -456,7 +456,7 @@ const Homepage = () => {
               />
               {card === 2 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-center`}
                   style={{ hyphens: "auto" }}>
                   As the Miscellaneous Support for our thriving badminton
                   community, I wear many hats - I'm here to lend a helping hand
@@ -481,7 +481,7 @@ const Homepage = () => {
               />
               {card === 3 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-center`}
                   style={{ hyphens: "auto" }}>
                   As the leader of our dynamic badminton community, Ispearhead
                   court bookings, manage payments, procure quality shuttlecocks,
@@ -506,7 +506,7 @@ const Homepage = () => {
               />
               {card === 1 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-center`}
                   style={{ hyphens: "auto" }}>
                   As the Treasurer of our vibrant badminton community, I
                   diligently handle the financial aspect, collecting payments,
@@ -532,7 +532,7 @@ const Homepage = () => {
               />
               {card === 5 && (
                 <p
-                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-justify`}
+                  className={`absolute bottom-0 p-4 text-white bg-black/25 transition-opacity duration-1000 ease-in-out opacity-0 hover:opacity-100 max-h-full h-full rounded-md text-center`}
                   style={{ hyphens: "auto" }}>
                   As the IT Support for our expansive badminton community, I
                   drive the development of a user-friendly website, ensuring
@@ -548,10 +548,10 @@ const Homepage = () => {
       </div>
 
       {/* Cooperation */}
-      <div className="w-full h-full px-[12.33%] top-[-8rem] relative">
+      <div className="w-full h-full px-[12.33%] top-[-8rem] relative bg-[#231F20]">
         <div className="flex justify-center">
           <div
-            className="w-1/2 shadow shadow-black/25 pt-[5rem] py-[2.5rem] px-[4rem] bg-[#F9CA55]"
+            className="w-1/2 shadow shadow-black/25 pt-[5rem] py-[2.5rem] px-[4rem] bg-white"
             id="animated-text-twelve">
             <div className="flex flex-col">
               <div className="flex justify-center gap-5">

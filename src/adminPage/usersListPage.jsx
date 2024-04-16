@@ -7,11 +7,10 @@ import {
   GridToolbarFilterButton,
   GridToolbarExport,
   GridToolbarDensitySelector,
-} from '@mui/x-data-grid';
+} from "@mui/x-data-grid";
 import { tokens } from "../theme";
 import { mockDataContacts } from "./mockData";
 import AdminHomePage from "./adminHomePage";
-
 import AdminHeader from "./adminHeader";
 
 const UserListPage = () => {
@@ -44,33 +43,36 @@ const UserListPage = () => {
         <GridToolbarColumnsButton />
         <GridToolbarFilterButton />
         <GridToolbarDensitySelector
-          slotProps={{ tooltip: { title: 'Change density' } }}
+          slotProps={{ tooltip: { title: "Change density" } }}
         />
         <Box sx={{ flexGrow: 1 }} />
         <GridToolbarExport
           slotProps={{
-            tooltip: { title: 'Export data' },
-            button: { variant: 'outlined' },
+            tooltip: { title: "Export data" },
+            button: { variant: "outlined" },
           }}
         />
       </GridToolbarContainer>
     );
   }
   return (
-    <AdminHomePage >
+    <AdminHomePage>
       <div className="flex flex-column mr-4">
-          <AdminHeader title="User Management" subtitle="Here show all the TBC registered users" />
-          <div className="user-management-table">
+        <AdminHeader
+          title="User Management"
+          subtitle="Here show all the TBC registered users"
+        />
+        <div className="user-management-table">
           <DataGrid
-              rows={mockDataContacts}
-              columns={columns}
-              slots={{
-                toolbar: CustomToolbar,
-              }}
+            rows={mockDataContacts}
+            columns={columns}
+            slots={{
+              toolbar: CustomToolbar,
+            }}
           />
-          </div>
         </div>
-     </AdminHomePage>
+      </div>
+    </AdminHomePage>
   );
 };
 
