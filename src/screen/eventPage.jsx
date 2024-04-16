@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { useNavigate } from "react-router-dom";
 import banner from "../img/banner.jpeg";
-import { db } from "../firebase-config";
+import { db } from "../firebase/firebase-config";
 import { collection, addDoc, query, where, getDocs } from "firebase/firestore";
 
 const EventPage = () => {
